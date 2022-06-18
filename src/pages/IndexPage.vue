@@ -1,6 +1,7 @@
 <template>
   <q-page class="row items-center justify-evenly">
     <DumpValue :val="{foo: 'blah'}" />
+    <DumpValue :flag="true" />
   </q-page>
 </template>
 

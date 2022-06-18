@@ -12,5 +12,6 @@ const props = withDefaults(defineProps<Props>(), {
   <div>
     <div>Type: {{ typeof props.val }}</div>
     <div>Value: {{ JSON.stringify(props.val) }} </div>
+    <div>Flag: {{ props.flag }}</div>
   </div>
 </template>
